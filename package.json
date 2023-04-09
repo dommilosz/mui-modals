@@ -1,0 +1,25 @@
+{
+  "name": "mui-modals",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mui/material": "^5.11.16",
+    "@tsconfig/node16": "^1.0.3",
+    "react": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "typescript": "^5.0.4"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
